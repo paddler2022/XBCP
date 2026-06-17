@@ -1,0 +1,37 @@
+# Data and indexes (downloaded from HuggingFace)
+data/
+indexes/
+
+# Run outputs and evaluation results
+runs/
+evals/
+
+# Topics and qrels (downloaded from BrowseComp-Plus)
+topics-qrels/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.python-version
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+
+# uv
+uv.lock
